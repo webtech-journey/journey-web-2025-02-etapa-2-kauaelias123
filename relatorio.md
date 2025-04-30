@@ -1,8 +1,8 @@
 # 🧪 Relatório de Avaliação – Autograder HTML - kauaelias123
 
-**Data:** 30/04/2025 17:27
+**Data:** 30/04/2025 17:50
 
-**Nota Final:** `71.22/100`
+**Nota Final:** `77.22/100`
 **Status:** ✅ Aprovado
 
 ---
@@ -10,8 +10,8 @@
 - Foram encontrados `2` problemas nos requisitos obrigatórios. Veja abaixo os testes que falharam:
   - ⚠️ **Falhou no teste**: `test_base.py::test_caption_present`
     - **Melhoria sugerida**: Falta o elemento <caption> na tabela. Lembre-se de incluir a legenda na tabela.
-  - ⚠️ **Falhou no teste**: `test_base.py::test_rowspan_present`
-    - **Melhoria sugerida**: Não encontrei o atributo rowspan. Adicione-o a uma célula para melhorar a tabela.
+  - ⚠️ **Falhou no teste**: `test_base.py::test_unclosed_tags`
+    - **Melhoria sugerida**: Há uma tag <tr> não fechada no HTML. Verifique se todas as tags de abertura têm suas respectivas tags de fechamento.
 
 ## ⭐ Itens de Destaque (20%)
 - Você conquistou `3` bônus! Excelente trabalho nos detalhes adicionais!
@@ -23,9 +23,7 @@
     - Ótimo uso de estilos internos e inline. Seu código está bem estilizado!
 
 ## ❌ Problemas Detectados (Descontos de até -30%)
-- Foram encontrados `1` problemas que acarretam descontos. Veja abaixo os testes penalizados:
-  - ⚠️ **Falhou no teste de penalidade**: `test_penalty.py::test_empty_cells_detected`
-    - **Correção sugerida**: Existem células vazias em sua tabela. Preencha todas as células ou remova as que não são necessárias.
+- Nenhuma infração grave foi detectada. Muito bom nesse aspecto!
 
 ---
 Continue praticando e caprichando no código. Cada detalhe conta! 💪
